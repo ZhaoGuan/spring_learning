@@ -1,10 +1,10 @@
-package com.gz.springlearning;
+package com.gz.restful;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringLearningApplicationTests {
+class RestfulApplicationTests {
 
     @Test
     void contextLoads() {

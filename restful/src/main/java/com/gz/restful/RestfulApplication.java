@@ -1,13 +1,13 @@
-package com.gz.springlearning;
+package com.gz.restful;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringLearningApplication {
+public class RestfulApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringLearningApplication.class, args);
+        SpringApplication.run(RestfulApplication.class, args);
     }
 
 }
