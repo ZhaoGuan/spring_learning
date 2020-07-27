@@ -1,4 +1,4 @@
-package com.gz.restful.consumingrest;
+package com.gz.consumingrest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
