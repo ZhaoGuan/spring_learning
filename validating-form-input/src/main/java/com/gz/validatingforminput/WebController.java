@@ -3,11 +3,8 @@ package com.gz.validatingforminput;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -27,7 +24,7 @@ public class WebController implements WebMvcConfigurer {
     }
 
     @PostMapping("/")
-    public String checkPersonInfo(@ModelAttribute @Valid PersonForm personForm, BindingResult bindingResult) {
+    public String checkPersonInfo(@Valid PersonForm personForm, BindingResult bindingResult) {
 
         if (bindingResult.hasErrors()) {
             return "form";

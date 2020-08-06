@@ -27,6 +27,7 @@
         <module>uploading-file</module>
         <module>scheduling-tasks</module>
         <module>relational-data-access</module>
+        <module>messaging-rabbitmq</module>
     </modules>
     <dependencies>
         <dependency>

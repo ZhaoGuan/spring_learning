@@ -1,13 +1,10 @@
 package com.gz.accessingdataneo4j;
 
-import com.sun.javafx.beans.IDProperty;
 import org.neo4j.ogm.annotation.GeneratedValue;
 import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
-import sun.rmi.runtime.Log;
 
-import java.nio.file.OpenOption;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Optional;
