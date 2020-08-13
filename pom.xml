@@ -20,6 +20,7 @@
         <java.version>1.8</java.version>
     </properties>
     <modules>
+        <module>accessing-data-gemfire</module>
         <module>accessing-data-jpa</module>
         <module>accessing-data-neo4j</module>
         <module>actuator-service</module>
