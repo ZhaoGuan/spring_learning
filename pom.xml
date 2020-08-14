@@ -26,6 +26,7 @@
         <module>actuator-service</module>
         <module>authenticating-ldap</module>
         <module>batch-processing</module>
+        <module>caching-gemfire</module>
         <module>consuming-rest</module>
         <module>messaging-jms</module>
         <module>messaging-rabbitmq</module>
@@ -37,7 +38,6 @@
         <module>securing-web</module>
         <module>uploading-file</module>
         <module>validating-form-input</module>
-
     </modules>
     <dependencies>
         <dependency>
